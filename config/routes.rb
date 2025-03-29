@@ -4,5 +4,6 @@ get "/dice/2/6", {controller: "dices", action: "two_six"}
 get "/dice/2/10", { controller: "dices", action: "two_ten" }
 get "/dice/1/20", { controller: "dices", action: "one_twenty" }
 get "/dice/5/4", { controller: "dices", action: "five_four" }
+get "/dice/:number_of_dice/:how_many_sides", { controller: "dices", action: "dynamic" }
 
 end
